@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Raitha</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <!-- <div class="navbar-wrapper">
+            <h1 class="nav-text">Project Raitha is part of the 1m1b initiative</h1>
+            </div> -->
+        <nav class="navbar">
+            <ul class="navbar-nav">
+                <li class="logo">
+                    <a href="#" class="nav-link">
+                        <span class="link-text logo-text">Project Raitha</span>
+                        <svg class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x logoSpecial" aria-hidden="true"
+                            focusable="false" data-prefix="fas" data-icon="bars" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                            class="svg-inline--fa fa-bars fa-w-14 fa-3x">
+                            <path fill="currentColor"
+                                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                                class=""></path>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="wheat" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                            class="svg-inline--fa fa-wheat fa-w-16 fa-3x">
+                            <path fill="currentColor"
+                                d="M481.7 113.55c25.4-27.43 32.47-72.08 29.75-113C482.47-1.39 431.2.29 398.9 30.43c-37.2 37.35-30.99 104.3-29.76 113 41.58 2.78 85-4.15 112.56-29.88zm-43.51 56c-16.1 3.87-33.24 6.45-52.18 6.45-6.34 0-12.69-.22-19-.64l-25.9-1.73-3.65-25.7c-.32-2.29-4.98-37.33 4.65-75.88-12.86-31.93-40.99-55.43-45.79-59.03-27.88 24.38-50.81 56.03-51.97 89.52 1.09 28.48 18.66 56.4 40.93 78.93l-41.48 41.48c1.59-5.97 2.8-12.06 3.02-18.39-.09-46.86-46.08-85.04-52.32-89.73-27.88 24.38-50.81 56.03-51.97 89.52 1.1 28.48 18.66 56.4 40.93 78.93l-41.48 41.48c1.59-5.97 2.8-12.06 3.02-18.39-.09-46.86-46.08-85.04-52.32-89.73-27.88 24.38-50.81 56.03-51.96 89.52 1.09 28.48 18.66 56.4 40.93 78.93L9.38 457.38c-12.5 12.5-12.5 32.75 0 45.25C15.63 508.88 23.81 512 32 512s16.38-3.12 22.63-9.38l72.24-72.24c22.73 22.77 50.36 40.17 79.4 41.17 33.21-1.28 65.71-24.89 89.73-52.32-17-19.44-50.28-50.61-89.52-51.97-6.62.01-12.99 1.11-19.2 2.71l41.41-41.41c22.73 22.77 50.36 40.17 79.4 41.17 33.21-1.28 65.71-24.89 89.73-52.32-17-19.44-50.28-50.61-89.52-51.97-6.62.01-12.99 1.11-19.2 2.71l41.41-41.41c22.73 22.77 50.36 40.17 79.4 41.17 33.21-1.28 65.71-24.89 89.73-52.32-12.76-14.6-34.7-35.8-61.45-46.04z"
+                                class=""></path>
+                        </svg>
+                        <span class="link-text">Farmers</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <svg class="svg-inline--fa fa-alien-monster fa-w-18 fa-9x" aria-hidden="true" focusable="false"
+                            data-prefix="fas" data-icon="question-circle" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512" class="svg-inline--fa fa-question-circle fa-w-16 fa-3x">
+                            <path fill="currentColor"
+                                d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z"
+                                class=""></path>
+                        </svg>
+                        <span class="link-text">About Us</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <svg class="svg-inline--fa fa-alien-monster fa-w-18 fa-9x" aria-hidden="true" focusable="false"
+                            data-prefix="fas" data-icon="phone-alt" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512" class="svg-inline--fa fa-phone-alt fa-w-16 fa-3x">
+                            <path fill="currentColor"
+                                d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"
+                                class=""></path>
+                        </svg>
+                        <span class="link-text">Contact Us</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="donate" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                            class="svg-inline--fa fa-donate fa-w-16 fa-3x">
+                            <path fill="currentColor"
+                                d="M256 416c114.9 0 208-93.1 208-208S370.9 0 256 0 48 93.1 48 208s93.1 208 208 208zM233.8 97.4V80.6c0-9.2 7.4-16.6 16.6-16.6h11.1c9.2 0 16.6 7.4 16.6 16.6v17c15.5.8 30.5 6.1 43 15.4 5.6 4.1 6.2 12.3 1.2 17.1L306 145.6c-3.8 3.7-9.5 3.8-14 1-5.4-3.4-11.4-5.1-17.8-5.1h-38.9c-9 0-16.3 8.2-16.3 18.3 0 8.2 5 15.5 12.1 17.6l62.3 18.7c25.7 7.7 43.7 32.4 43.7 60.1 0 34-26.4 61.5-59.1 62.4v16.8c0 9.2-7.4 16.6-16.6 16.6h-11.1c-9.2 0-16.6-7.4-16.6-16.6v-17c-15.5-.8-30.5-6.1-43-15.4-5.6-4.1-6.2-12.3-1.2-17.1l16.3-15.5c3.8-3.7 9.5-3.8 14-1 5.4 3.4 11.4 5.1 17.8 5.1h38.9c9 0 16.3-8.2 16.3-18.3 0-8.2-5-15.5-12.1-17.6l-62.3-18.7c-25.7-7.7-43.7-32.4-43.7-60.1.1-34 26.4-61.5 59.1-62.4zM480 352h-32.5c-19.6 26-44.6 47.7-73 64h63.8c5.3 0 9.6 3.6 9.6 8v16c0 4.4-4.3 8-9.6 8H73.6c-5.3 0-9.6-3.6-9.6-8v-16c0-4.4 4.3-8 9.6-8h63.8c-28.4-16.3-53.3-38-73-64H32c-17.7 0-32 14.3-32 32v96c0 17.7 14.3 32 32 32h448c17.7 0 32-14.3 32-32v-96c0-17.7-14.3-32-32-32z"
+                                class=""></path>
+                        </svg>
+                        <span class="link-text">Donate</span>
+                    </a>
+                </li>
+                <li class="nav-item" id="themeButton">
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="nav2">
+                <div class="logo1">
+                    <img class="border100"
+                        src="https://media.discordapp.net/attachments/748222696080277601/938657051415019560/farm.png"
+                        alt="" srcset="">
+                    <div class="textHolder">
+                        <h1 class="text1">Project Raitha</h1>
+                    </div>
+                    <div class="donate"><button id="donate">Donate</button></div>
+                </div>
+            </div>
+            <div class="mainContent">
+                <div class="mainText">
+                    <h1 class="heading1">Helping Farmers Increase Their Income
+                    </h1>
+                    <p class="heading1">In an Economical, Sustainable and Efficient Way </p>
+                </div>
+                <div class="animation">
+                    <div id="slider">
+                        <figure>
+                            <img src="https://media.discordapp.net/attachments/748222696080277601/938813779968401488/with-indian-farmer-plowing-vector-34451413.jpg"
+                                alt>
+                            <img src="https://media.discordapp.net/attachments/748222696080277601/938813779335073792/field-with-growing-corn-crops-vector-18269374.png?width=785&height=612"
+                                alt>
+                            <img
+                                src="https://media.discordapp.net/attachments/748222696080277601/938813778299084801/market-stalls-with-farmers-selling-vegetables-vector-31254358.png">
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+            <div class="farmers">
+                <div class="typewriter">
+                    <h1 class="h1">Did you know? </h1>
+                    <br>
+                </div>
+                <div class="typewriter1">
+
+                    <h1 class="h2">India ranks <bold>27<sup>th</sup> </bold> out of 48 countries in the yield rate per hectare. </h1>
+                    </h1>
+                    <br>
+                </div>
+                <div class="typewriter2">
+                    <h1 class="h3">Even though 50% of the country works in the agriculture sector </h1>
+                    <br>
+                </div>
+                <div class="typewriter2">
+                    <h1 class="h4">the average yield rate is lesser than the global average </h1>
+                    <br>
+                </div>
+                <br>
+
+            </div>
+            <div class="numbers">
+                <div class="numDiv">
+                    <span class="num"></span><span class="num"></span>
+                </div>
+                <div class="numDiv"><span class="num"></span><span class="num"></span></div>
+                <div class="numDiv"><span class="num"></span><span class="num"></span></div>
+            </div>
+            <div class="about">
+                <div class="aboutus">
+                    <h1 class="BIG white">Project Raitha</h1>
+                    <br>
+                    <p class="aim white">Project Raitha aims to help farmers in Rural Karnataka by <br> introducing them to
+                        Sustainable Technology and Modern Methods. </p>
+                </div>
+                <div class="aboutImg">
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="https://media.discordapp.net/attachments/748222696080277601/939131001521717278/WhatsApp_Image_2021-12-23_at_6.42.09_PM.jpeg?width=816&height=613"
+                                style="width:100%">
+                            <div class="text">Session 1 - Soil Testing at Hassan</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="https://media.discordapp.net/attachments/888260726819536946/939120286182285312/fc444911-309c-45f7-950c-c934b0e82b45.jpg?width=893&height=670"
+                                style="width:100%">
+                            <div class="text">Session 1 - Soil Testing at Hassan</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="https://media.discordapp.net/attachments/748222696080277601/939129934683725864/1a9728d7-8ef6-49ca-81c5-de9b42965ab1.jpg?width=816&height=613"
+                                style="width:100%">
+                            <div class="text">Session 1 - Soil Testing at Hassan</div>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyD1aVgeYlkn2hvXsDyFezl813Kwh1iV0Ao",
+          authDomain: "project-raitha.firebaseapp.com",
+          projectId: "project-raitha",
+          storageBucket: "project-raitha.appspot.com",
+          messagingSenderId: "604239431334",
+          appId: "1:604239431334:web:991472b8ba89c92a805667",
+          measurementId: "G-RL10RG42H6"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script> 
+</body>
+
+</html>
