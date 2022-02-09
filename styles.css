@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
 .navbar-wrapper {
   background-color: var(--bgColor);
   width: 100%;
@@ -297,11 +299,14 @@ main {
   align-items: center;
   background-color: white;
 }
-
 .heading1 {
-  font-size: 24px;
+  font-family: 'Rowdies', cursive;
+  font-size: 2.5rem;
 }
-
+.small1 {
+  font-size: 1.5rem;
+  font-family: 'Rowdies', cursive;
+}
 @keyframes slidy {
   0% {
     left: 0%;
@@ -337,6 +342,7 @@ body {
 }
 
 div#slider {
+  max-width: 1600px;
   overflow: hidden;
 }
 
@@ -346,7 +352,6 @@ div#slider figure img {
 }
 
 div#slider figure {
-
   position: relative;
   width: 500%;
   left: 0;
