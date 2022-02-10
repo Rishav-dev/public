@@ -1,2 +1,3 @@
 # public
-Isn't responsive yet.
+mostly responsive, need to find a good text effect
+
