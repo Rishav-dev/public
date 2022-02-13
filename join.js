@@ -19,6 +19,10 @@ const form = document.querySelector('#contactForm');
     form.email.value = '';
     form.help.value = '';
     form.subject.value = '';
+
+    alert("Form has been submitted")
+    window.location.href = "./index.html";
+
   }
   
 

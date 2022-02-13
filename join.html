@@ -16,14 +16,14 @@
         <form id="contactForm" >
       
           <label for="name"><bold>Name</label>
-          <input type="text" id="name" name="firstname" placeholder="Name">
+          <input type="text" id="name" name="firstname" placeholder="Name" required>
       <br>
           <label for="email"> Email</label>
-          <input type="email" id="email" name="email" placeholder="Email">
+          <input type="email" id="email" name="email" placeholder="Email" required>
           
       
           <label for="help">How can you help?</label>
-          <select id="help" name="help">
+          <select required id="help" name="help">
             <option value="Social Media">Social Media</option>
             <option value="Market">Connect Farmers to Markets</option>
             <option value="Tour">Join a rural tour and raise funds</option>
@@ -31,7 +31,7 @@
           </select>
       
           <label for="subject">Tell us what you want to work on.</label>
-          <textarea id="subject" name="subject" placeholder="What do you like?" style="height:200px"></textarea>
+          <textarea id="subject" name="subject" placeholder="What do you like?" style="height:200px" ></textarea>
       
           <button  type="submit" value="Submit">Submit</button>
           <button id="goback" onclick="location.href='./index.html'" type="button">

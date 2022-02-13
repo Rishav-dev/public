@@ -487,8 +487,11 @@ div#slider figure {
   padding-bottom: 50px;  ;
 }
 .aim {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
+}
+.aboutus {
+  max-width: 600px;
 }
 .white {
   color: #ffc60d;
@@ -517,6 +520,14 @@ div#slider figure {
   padding-bottom: 10px;
   font-family: 'Open Sans', sans-serif;
 }
+.mainText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 #action, #donate {
   width: 75px;
   height: 40px;
